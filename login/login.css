@@ -1,0 +1,82 @@
+body{
+  background: url(img/logbg4.jpg)
+  no-repeat center center fixed;
+  background-size: cover; 
+}
+div .loginHeader{
+  text-align: center;
+  margin-bottom: 68px;
+}
+div .loginHeader h1{
+  font-size: 100px;
+  margin: 0px;
+  color: #ff00d4;
+  padding: 0px;
+}
+div .loginHeader p{
+  color: #ff00c8;
+  font-size: 50px;
+  font-weight: bold;
+  margin: 0px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+div .loginHeader p::after{
+  content: '';
+  display: block;
+  height: 5px;
+  background: #cc5673;
+  margin: 0 auto; 
+}
+div .loginbody form{
+  margin: 0 auto;
+  /* padding-bottom: 30px; */
+  width:350px;
+  background: rgba(0,0,0,0.8);
+  padding: 50px;
+  border: 2px solid #ff00d4;
+  border-radius: 7px ;
+  text-align: center;
+}
+div .logininputcontainer{
+  margin-top:20px ;
+}
+div .logininputcontainer label{
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 0;
+}
+div .logininputcontainer p{
+  display: block;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+ 
+}
+div .logininputcontainer .input{
+  height: 25px;
+  width: 100%;
+  border:2px solid #ff00d4 ;
+  font-size: 20px;
+  padding: 5px;
+  text-align: center;
+}
+div .btnlogin {
+  margin: 40px;
+  text-align: center;
+}
+.btnlogin button{
+  font-size: 20px;
+  padding: 10px;
+  border:2px solid #ff00d4 ;
+  width: 90px;
+  border-radius: 8px;
+}.btnlogin button:hover{
+  border:2px solid #ffffff ;
+  background-color: #ff0000;
+  color: white;
+}
